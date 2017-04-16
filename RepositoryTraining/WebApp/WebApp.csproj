@@ -215,6 +215,10 @@
       <Project>{e0a172dd-b68a-44f3-a179-fce2cd32feb6}</Project>
       <Name>WebAppDB</Name>
     </ProjectReference>
+    <ProjectReference Include="..\WebAppRepository\WebAppRepository.csproj">
+      <Project>{143a97eb-1c3f-47b0-aba6-bd2bdf26d032}</Project>
+      <Name>WebAppRepository</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

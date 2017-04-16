@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using WebAppDB;
+using WebAppDB.Models;
+using WebAppRepository.Interfaces;
+using WebAppRepository.Repositories;
 
 namespace WebApp.Controllers
 {
@@ -11,8 +13,6 @@ namespace WebApp.Controllers
     {
         public ActionResult Index()
         {
-            TestDB.UseDB();
-
             return View();
         }
 
