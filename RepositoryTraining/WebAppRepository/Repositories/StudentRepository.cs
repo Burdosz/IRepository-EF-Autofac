@@ -9,7 +9,7 @@ using WebAppRepository.Interfaces;
 
 namespace WebAppRepository.Repositories
 {
-    public class StudentRepository : IRepository<Student>
+    class StudentRepository : IStudentRepository
     {
         private SchoolContext context;
 
